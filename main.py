@@ -84,7 +84,7 @@ for pedido in pedidos:
 mongo_db.pedidos.insert_many(pedidos_docs)
 
 
-print("✅ Migración completada con éxito.")
+print("Migración completada con éxito.")
 
 
 cursor.close()
